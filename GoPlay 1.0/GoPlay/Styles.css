@@ -1,0 +1,421 @@
+*{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+  height: fit-content;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+
+
+.img-container{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+}
+
+.mapbox{
+  height: 400px;
+  width: 800px;
+}
+
+
+
+.form-container{ 
+  width: 400px;
+  height: auto;
+  margin:0 auto;
+
+}
+
+.form-group
+{
+  padding-bottom: 5px;
+}
+
+
+
+
+
+.main-content{
+  margin-top: 50px ;
+  margin-left: 240px;
+  display:flex;
+  height: 500px;
+  width: flex;
+  align-items: center;
+
+}
+
+.profile-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px ;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  background-color: beige;
+}
+
+.user-wrapper{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.la-user-alt{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.sidebar-menu li{
+  width: 100%;
+  margin-bottom: 1.3rem;
+  padding-left: 1rem;
+}
+
+
+.dashLink{
+  background-color: rgb(134, 162, 241);
+  border-radius: 10px;
+  height: 150px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  display: flex;
+  padding-top: 65px;
+  justify-content: center;
+  position: relative;
+}
+
+.dashboard-panel :hover{
+  background-color: white;
+  color: black;
+  border-style: solid;
+}
+
+.dashIcon{
+  font-size: 50px;
+  text-decoration: none;
+  color:black;
+  position: absolute;
+  top: 50px;;
+}
+
+.dashboard-panel{
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+  transition: 0.15s;
+}
+
+.dash{
+  background-image: url(imgs/soccer2.png), url(imgs/track.png), url(imgs/drone.png), url(imgs/golf.png) ;
+  background-position: right bottom, left top, left bottom, right top;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 50vh;
+  height: 500px;
+}
+
+.footer{
+  height: 70px;
+  background-color: gray;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+
+.sBox{
+  width: 200px;
+}
+
+.searhc-btn{
+  font-size: 20px;
+}
+
+
+.la-search{
+  font-size: 20px;
+  padding-top: 2px;
+}
+
+
+.mid-content{
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-left: 240px;
+  width: flex;
+  height: flex;
+  
+}
+
+.dashbutton{
+  background: none;
+  border: none;
+  padding: 0; 
+  height: auto; 
+}
+
+.search-form{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-panel, .account-panel{
+  display: none;
+}
+
+.search-page{
+  background-image: url(imgs/biking.png), url(imgs/basketball2.png), url(imgs/drone.png), url(imgs/soccer.png), url(imgs/basketball.png) ;
+  background-position: right bottom, left top, left bottom, center, right top;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 50vh;
+  height: 500px;
+}
+
+.profile-pic-box{
+  height: 300px;
+  width:300px;
+  border-style: solid;
+  border-width: 5px;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-pic{
+  font-size: 150px;
+}
+
+.update-btn{
+  margin-left: 220px;
+}
+
+
+
+
+.result-profile{
+  background-color: rgb(41, 39, 39);
+  height: 230px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pic-area{
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+}
+.name-area{
+ background-color: rgb(134, 162, 241);
+ border-radius: 10px;
+ height: 100%;
+}
+
+.descrip-area{
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.temp-pic{
+  font-size: 100px;
+  
+}
+
+.name,.username{
+  text-align: start;
+  margin-top: 15px;
+}
+
+
+
+
+.descrip{
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.bio{
+  margin-top: 15px;
+}
+
+.result-data{
+  height: flex;
+  width: flex;
+}
+
+
+
+
+
+.middle-panel{
+  padding-top: 10px;
+}
+
+.icons{
+  font-size: 70px;
+}
+
+
+
+.result-box{
+  
+}
+
+.active-chat{
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chat-box{
+  height: 650px;
+  width: 400px;
+  min-width: 300px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(41, 39, 39);
+}
+
+.chat-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.chat-image{
+  background-position: center;
+  background-size: cover;
+}
+
+.chat-list{
+  overflow-y: scroll;
+  height: max-content;
+  min-height: 50px;
+  max-height: 400px;
+  margin-top: 40px;
+}
+
+.toUser{
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+.active-chats{
+  height: min-content;
+  background-color: rgb(41, 39, 39);
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+
+
+.message-panel{
+  display: flex;
+  justify-content: center;
+}
+
+.incoming{
+  background-color: rgb(85, 195, 52);
+  align-self: flex-start;
+  height: min-content;
+  width: max-content;
+  max-width: 150px;
+  font-size: 15px;
+  padding: 4px;
+  color: white;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-radius: 10px 10px 10px 0px;
+}
+
+.outgoing{
+  background-color: rgb(83, 173, 225);
+  align-self: flex-end;
+  height: min-content;
+  width: max-content;
+  max-width: 150px;
+  font-size: 15px;
+  padding: 4px;
+  color: white;
+  margin-left: auto;
+  margin-bottom: 5px;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.chat-area{
+  width: 80%;
+  padding: 5px;
+  height: 500px;
+  overflow-y: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(58, 55, 55);
+  display: flex;
+}
+
+
+::-webkit-scrollbar{
+  width: 4px;
+  color: white;
+}
+
+.result-link{
+  text-decoration: none;
+  color: black;
+}
+
+.input-field{
+  height: 100%;
+  padding: 2px;
+  font-size: small;
+  height: 50px;
+  width: calc(100% - 58px);
+  font-size: 16px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+}
+
+.typing-area{
+  align-items: center;
+  margin-top: 5px;
+  height: 70px;
+  padding: 8px;
+  background-color: rgb(41, 39, 39);
+  border-radius: 20px;
+ 
+
+}
+
+.send-btn{
+  height: 100% ;
+  margin-left: 2px;
+}
