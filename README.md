@@ -15,7 +15,8 @@ HOMEPAGE
 
 <img width="959" alt="goplayDash" src="https://github.com/JFDiaku/GoPlay/assets/131298318/c8b25f38-23ef-488e-aed8-1b51218fae50">
 
-<img width="958" alt="Screenshot_20221126_025804" src="https://github.com/user-attachments/assets/b3a84519-b695-4cb5-bf2d-d491e54a4099">
+
+<img width="598" alt="Screenshot_20221126_033352" src="https://github.com/user-attachments/assets/3ec28752-13a5-4195-b791-e7ec57db6c50">
 
 
 ![goplayMessage](https://github.com/JFDiaku/GoPlay/assets/131298318/4d2014e3-358f-4e9b-8f27-3442255efbcd)
