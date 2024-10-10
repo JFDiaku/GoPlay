@@ -1,4 +1,4 @@
-
+HOMEPAGE
 ![goplayHome](https://github.com/JFDiaku/GoPlay/assets/131298318/e0a3a8c8-55ba-4afb-ad6e-f651c79942f0)
 
 ![goplayRegister](https://github.com/JFDiaku/GoPlay/assets/131298318/791414e9-bdba-476d-9f2a-d9969efd821e)
